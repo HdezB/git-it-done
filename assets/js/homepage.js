@@ -119,6 +119,6 @@ var buttonClickHandler = function(event) {
   //clear old content
   repoContainerEl.textContent = "";
 }
-
+}
 userFormEl.addEventListener("submit", formSubmitHandler);
 languageButtonsEl.addEventListener("click", buttonClickHandler);
